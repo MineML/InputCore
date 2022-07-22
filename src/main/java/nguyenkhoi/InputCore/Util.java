@@ -16,7 +16,7 @@ public class Util {
     private final static char COLOR_CHAR = ChatColor.COLOR_CHAR;
 
     public static void  sendPlayerMessage(Player p, String message) {
-        p.sendMessage(message);
+        p.sendMessage(colorize(message));
     }
 
     public static String colorize(String input) {
