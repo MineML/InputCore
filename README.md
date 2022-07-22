@@ -31,6 +31,7 @@ InputCatch(p, in);
   <url>https://jitpack.io</url>
 </repository>
 ```
+```
 <dependency>
   <groupId>com.github.NguyenPhucAnhKhoi</groupId>
   <artifactId>InputCore</artifactId>
@@ -38,5 +39,4 @@ InputCatch(p, in);
 </dependency>
 ```
 
-```
 [![](https://jitpack.io/v/NguyenPhucAnhKhoi/InputCore.svg)](https://jitpack.io/#NguyenPhucAnhKhoi/InputCore)
