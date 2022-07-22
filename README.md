@@ -24,7 +24,7 @@ in.setNumberFormat(InputEnums.NumberFormat.DOUBLE);
 //Initiate player input
 InputCatch(p, in);
 ```
-#Maven
+# Maven
 ```
 <repository>
   <id>jitpack.io</id>
