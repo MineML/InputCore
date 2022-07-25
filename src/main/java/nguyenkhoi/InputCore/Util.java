@@ -76,7 +76,7 @@ public class Util {
         if (s == null) {
             return false;
         } else {
-            return s.matches("\\D");
+            return s.matches("[a-zA-Z]");
         }
     }
 
