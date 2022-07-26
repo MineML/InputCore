@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import static nguyenkhoi.InputCore.InputCatcher.Main.*;
 import static nguyenkhoi.InputCore.InputCore.papistatus;
 
 
@@ -59,16 +60,19 @@ public class Util {
 
     public static void callInputEvent(Player p, String rawInput, InputType_All inputType) {
         InputEvent inputEvent = new InputEvent(p, rawInput);
+        input_all.remove(p);
         inputType.run(inputEvent);
     }
 
     public static void callInputEvent(Player p, String rawInput, InputType_Number inputType) {
         InputEvent inputEvent = new InputEvent(p, rawInput);
+        input_number.remove(p);
         inputType.run(inputEvent);
     }
 
     public static void callInputEvent(Player p, String rawInput, InputType_Text inputType) {
         InputEvent inputEvent = new InputEvent(p, rawInput);
+        input_text.remove(p);
         inputType.run(inputEvent);
     }
 
