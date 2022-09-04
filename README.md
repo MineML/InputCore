@@ -1,6 +1,6 @@
 # How to register InputCore ?
 ```
-@Override
+    @Override
     public void onEnable() {
         RegisterInputCore(this);
     }
