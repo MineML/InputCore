@@ -1,4 +1,4 @@
-package nguyenkhoi.InputCore.InputCatcher;
+package nguyenkhoi.InputCore;
 
 import java.util.Arrays;
 import java.util.List;

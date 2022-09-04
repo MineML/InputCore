@@ -1,4 +1,4 @@
-package nguyenkhoi.InputCore.InputCatcher;
+package nguyenkhoi.InputCore;
 
 public interface InputExecute {
     void run(InputEvent event);

@@ -1,4 +1,4 @@
-package nguyenkhoi.InputCore.InputCatcher;
+package nguyenkhoi.InputCore;
 
 public class InputEnums {
     public enum InputMethod {

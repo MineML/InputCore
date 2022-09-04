@@ -1,11 +1,11 @@
-package nguyenkhoi.InputCore.InputCatcher;
+package nguyenkhoi.InputCore;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.HandlerList;
 
 public class InputEvent {
-    private Player p;
-    private String i;
+    private final Player p;
+    private final String i;
     private static final HandlerList handlers = new HandlerList();
 
     public InputEvent(Player player, String raw_input) {
