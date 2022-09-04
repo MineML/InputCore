@@ -33,10 +33,10 @@ InputCatch(p, in);
 ```
 ```
 <dependency>
-  <groupId>com.github.NguyenPhucAnhKhoi</groupId>
+  <groupId>com.github.MineML</groupId>
   <artifactId>InputCore</artifactId>
   <version>Version</version>
 </dependency>
 ```
 
-[![](https://jitpack.io/v/NguyenPhucAnhKhoi/InputCore.svg)](https://jitpack.io/#NguyenPhucAnhKhoi/InputCore)
+[![](https://jitpack.io/v/MineML/InputCore.svg)](https://jitpack.io/#MineML/InputCore)
